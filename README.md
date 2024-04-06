@@ -5,8 +5,7 @@
 自用 android hysteria 2 客户端，基于[hysteria 2.4.0](https://github.com/apernet/hysteria/commit/f91efbeded80d5d1f43ba574e707326074fc754e)构建. 支持 64位arm架构，在 android 14上测试可用.
 
 ## 下载
-
-- [v2.4.0](./clients/hysteria.2.4.0.apk)
+- [v2.4.0](/raw/main/client/hysteria.2.4.0.apk)
 
 ## 支持功能
 
