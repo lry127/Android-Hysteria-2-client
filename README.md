@@ -31,13 +31,13 @@
 
 - auth: 密码
 
-- sni: tls 的sni部分，可以不填，默认从server address中提取. 也可以与server address不用，此时server address仅作为报文对端发送地址，实际tls握手的sni由这个字段指定
+- sni: tls 的sni部分，可以不填，默认从server address中提取. 也可以与server address不同，此时server address仅作为报文对端发送地址，实际tls握手的sni由这个字段指定
 
 - obfuscation password: 混淆密码，如服务器未启用混淆，将其留白即可
 
 - tx 上传速率，以mbps为单位
 
-- rx 下载速度，以mbps为单位
+- rx 下载速率，以mbps为单位
 
 - 注意：tx和rx必须按真实值填写否则会带来性能损失，若都填0则会关闭hysteria的Brutal拥堵控制协议，转用BBR，参加[官方文档](https://v2.hysteria.network/zh/docs/advanced/Full-Client-Config/#_5)
 
@@ -48,8 +48,6 @@
 - 感谢 [hysteria](https://github.com/apernet/hysteria) 提供协议与底层实现. [LICENSE](https://github.com/apernet/hysteria/blob/master/LICENSE.md)
 
 - 感谢 [eycorsican/go-tun2socks](https://github.com/eycorsican/go-tun2socks) 提供代理实现. [LICENSE](https://github.com/eycorsican/go-tun2socks/blob/master/LICENSE)
-
-## 关于
 
 本应用仅限学习交流使用，使用请遵守当地法规。
 
