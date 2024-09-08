@@ -39,7 +39,7 @@
 
 - rx 下载速率，以mbps为单位
 
-- 注意：tx和rx必须按真实值填写否则会带来性能损失，若都填0则会关闭hysteria的Brutal拥堵控制协议，转用BBR，参加[官方文档](https://v2.hysteria.network/zh/docs/advanced/Full-Client-Config/#_5)
+- 注意：tx和rx必须按真实值填写否则会带来性能损失，若都填0则会关闭hysteria的Brutal拥堵控制协议，转用BBR，参考[官方文档](https://v2.hysteria.network/zh/docs/advanced/Full-Client-Config/#_5)
 
 - allow insecure: 允许不安全证书，通常不应开启，否则可能导致中间人攻击
 
