@@ -7,8 +7,6 @@
 ## 下载
 - [2.4.0](https://github.com/lry127/Android-Hysteria-2-client/releases)
 
-## 注意
-Github上传的源码使用最新hysteria 2.5.1客户端. UI基于Jetpack Compose实现但并不完备，不过基础功能已经实现，若需使用请使用Android Studio自行构建. 详见此[issue](https://github.com/lry127/Android-Hysteria-2-client/issues/2).
 
 ## 支持功能
 
@@ -46,7 +44,10 @@ Github上传的源码使用最新hysteria 2.5.1客户端. UI基于Jetpack Compos
 
 - allow insecure: 允许不安全证书，通常不应开启，否则可能导致中间人攻击
 
-## 版权
+## 新版本
+Github上传的源码使用最新hysteria 2.5.1版本. UI基于Jetpack Compose实现但并不完备，不过基础功能已经实现，若需使用请使用Android Studio自行构建. 详见此[issue](https://github.com/lry127/Android-Hysteria-2-client/issues/2). ![新版截图](./screenshots/s2.png)
+
+## 关于
 
 - 感谢 [hysteria](https://github.com/apernet/hysteria) 提供协议与底层实现. [LICENSE](https://github.com/apernet/hysteria/blob/master/LICENSE.md)
 
