@@ -2,7 +2,7 @@
 
 ## 介绍
 
-自用 android hysteria 2 客户端，基于[hysteria 2.4.0](https://github.com/apernet/hysteria/commit/f91efbeded80d5d1f43ba574e707326074fc754e)构建. 支持 64位arm架构，在 android 14上测试可用.
+自用 android hysteria 2 客户端，基于[hysteria 2.4.0](https://github.com/apernet/hysteria/commit/f91efbeded80d5d1f43ba574e707326074fc754e)构建. 支持 64位arm架构，在 android 14上测试可用. [新版本](https://github.com/lry127/Android-Hysteria-2-client?tab=readme-ov-file#%E6%96%B0%E7%89%88%E6%9C%AC)支持更多abi.
 
 ## 下载
 - [2.4.0](https://github.com/lry127/Android-Hysteria-2-client/releases/tag/v2.4.0r-2)
