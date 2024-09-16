@@ -7,6 +7,9 @@
 ## 下载
 - [2.4.0](https://github.com/lry127/Android-Hysteria-2-client/releases)
 
+## 注意
+Github上传的源码使用最新hysteria 2.5.1客户端. UI基于Jetpack Compose实现但并不完备，不过基础功能已经实现，若需使用请使用Android Studio自行构建. 详见此[issue](https://github.com/lry127/Android-Hysteria-2-client/issues/2).
+
 ## 支持功能
 
 - 基本hysteria 2客户端，支持暴露 socks5和http端口，支持全局代理
