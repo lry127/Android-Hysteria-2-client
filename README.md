@@ -5,7 +5,7 @@
 自用 android hysteria 2 客户端，基于[hysteria 2.4.0](https://github.com/apernet/hysteria/commit/f91efbeded80d5d1f43ba574e707326074fc754e)构建. 支持 64位arm架构，在 android 14上测试可用.
 
 ## 下载
-- [2.4.0](https://github.com/lry127/Android-Hysteria-2-client/releases)
+- [2.4.0](https://github.com/lry127/Android-Hysteria-2-client/releases/tag/v2.4.0r-2)
 
 
 ## 支持功能
@@ -45,7 +45,7 @@
 - allow insecure: 允许不安全证书，通常不应开启，否则可能导致中间人攻击
 
 ## 新版本
-Github上传的源码使用最新hysteria 2.5.1版本. UI基于Jetpack Compose实现但并不完备，不过基础功能已经实现，若需使用请使用Android Studio自行构建. 详见此[issue](https://github.com/lry127/Android-Hysteria-2-client/issues/2). ![新版截图](./screenshots/s2.png)
+Github上传的源码使用最新hysteria 2.5.1版本. UI基于Jetpack Compose实现但并不完备，不过基础功能已经实现，若需使用请使用下载[pre-release](https://github.com/lry127/Android-Hysteria-2-client/releases/tag/v2.5.1.2). 详见此[issue](https://github.com/lry127/Android-Hysteria-2-client/issues/2). ![新版截图](./screenshots/s2.png)
 
 ## 关于
 
