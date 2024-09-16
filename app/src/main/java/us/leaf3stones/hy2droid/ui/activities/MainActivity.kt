@@ -104,13 +104,13 @@ fun MainScreen(modifier: Modifier = Modifier, viewModel: MainActivityViewModel =
             }
         }
 
-        if (state.shouldShowConfigInvalidRemainder) {
+        if (state.shouldShowConfigInvalidReminder) {
             AlertDialog(
-                onDismissRequest = { viewModel.onConfigInvalidRemainderDismissed() },
+                onDismissRequest = { viewModel.onConfigInvalidReminderDismissed() },
                 confirmButton = {
                     Text(
                         text = "ok",
-                        modifier = Modifier.clickable { viewModel.onConfigInvalidRemainderDismissed() },
+                        modifier = Modifier.clickable { viewModel.onConfigInvalidReminderDismissed() },
                         fontSize = 16.sp
                     )
                 }, title = {

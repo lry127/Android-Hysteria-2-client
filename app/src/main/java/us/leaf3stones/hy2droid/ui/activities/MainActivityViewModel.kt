@@ -90,14 +90,14 @@ class MainActivityViewModel : ViewModel() {
             }
         } else {
             _state.update {
-                it.copy(shouldShowConfigInvalidRemainder = true)
+                it.copy(shouldShowConfigInvalidReminder = true)
             }
         }
     }
 
-    fun onConfigInvalidRemainderDismissed() {
+    fun onConfigInvalidReminderDismissed() {
         _state.update {
-            it.copy(shouldShowConfigInvalidRemainder = false)
+            it.copy(shouldShowConfigInvalidReminder = false)
         }
     }
 
@@ -110,5 +110,5 @@ class MainActivityViewModel : ViewModel() {
 data class UiState(
     val isVpnConnected: Boolean,
     val configData: HysteriaConfig,
-    val shouldShowConfigInvalidRemainder: Boolean
+    val shouldShowConfigInvalidReminder: Boolean
 )
